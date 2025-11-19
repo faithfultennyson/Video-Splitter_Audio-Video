@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require('uuid');
 const morgan = require('morgan');
 
 const PORT = process.env.PORT || 8080;
-const API_KEY = process.env.SPLITTER_API_KEY || 'change-me';
+const API_KEY = process.env.SPLITTER_API_KEY || 'u8wd172309n9d0!h7^##@&*tww4';
 const FF_BINARY = process.env.FFMPEG_PATH || 'ffmpeg';
 const CLEANUP_DELAY_MS = 30 * 60 * 1000;
 
