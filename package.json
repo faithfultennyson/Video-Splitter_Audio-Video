@@ -4,7 +4,8 @@
   "description": "Simple ffmpeg-powered API that outputs a muted video and an audio-only black frame MP4.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "bash render-build.sh"
   },
   "dependencies": {
     "express": "^4.19.2",
